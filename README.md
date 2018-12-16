@@ -3,8 +3,8 @@ DEEP LEARNING FOR CLASSIFYING HEAVY DRINKERS FROM NORMAL CONTROLS with MRI Brain
 
 ## Setup
 
-`conda env create -f environment.yml`
-conda install cython
+-conda env create -f environment.yml`
+-conda install cython
 
 # Source Code: 
 - loader.py : load dataset 
