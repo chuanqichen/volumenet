@@ -39,6 +39,7 @@ usage: evaluate.py --model_path MODEL_PATH --split SPLIT [--augment]
                    --model MODEL
 
 - model : SqueezeNet , AlexNet, or VGG19 are supported 
+
 For example: 
 ` python evaluate.py --split test --model SqueezeNet  --model_path SqueezeNet_002/models/SqueezeNet_val0.1577_train0.1701_epoch28
 
