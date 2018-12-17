@@ -44,7 +44,8 @@ For example:
 ` python evaluate.py --split test --model SqueezeNet  --model_path SqueezeNet_002/models/SqueezeNet_val0.1577_train0.1701_epoch28
 
 
-##References
+## References
+
 [1] A. Pfefferbaum, T. Rohlfing, K. M. Pohl, B. Lane, W. Chu, D. Kwon, et al. Adolescent
 development of cortical and white matter structure in the ncanda sample: Role of sex, ethnicity,
 puberty, and alcohol drinking. Cereb Cortex., 26(10):4101–4121, 2016. doi: 10.1093/cercor/
