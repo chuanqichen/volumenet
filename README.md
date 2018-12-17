@@ -69,9 +69,11 @@ For example:
 
 ## Save training and evaluation results over epoches and visualization 
 
-TensorboardX (a library for pytorch) was used to save the intermediate results (scalar datas, figures, images, graphcs) every epoches 
-
-Tensorboard can be used to load above results (scalar datas, figures, images, graphcs) to visualize and monitor the training as it goes
+            TensorboardX (a library for pytorch) was used to save the intermediate results 
+            (scalar datas, figures, images, graphcs) every epoches 
+            
+            Tensorboard can be used to load above results (scalar datas, figures, images, 
+            graphcs) to visualize and monitor the training as it goes
 
 
 ## References
