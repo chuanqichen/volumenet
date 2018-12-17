@@ -34,7 +34,7 @@ Some adolescents have up to 3 annual scans as a result of the follow-up scans of
 - evaluate.py
 
 ## Train
-usage: train.py --rundir RUNDIR --model MODEL [--seed SEED] [--augment]
+usage: python train.py --rundir RUNDIR --model MODEL [--seed SEED] [--augment]
 
                 [--learning_rate LEARNING_RATE] [--weight_decay WEIGHT_DECAY]
                 
@@ -56,15 +56,15 @@ python train.py --model SqueezeNet --learning_rate=1e-5 --epochs=50 --max_patien
 
 ## Evaluate
 
-usage: evaluate.py --model_path MODEL_PATH --split SPLIT [--augment]
+usage: python evaluate.py --model_path MODEL_PATH --split SPLIT [--augment]
                    --model MODEL
 
 - model : SqueezeNet , AlexNet, or VGG19 are supported 
 
 For example: 
 
-` python evaluate.py --split test --model SqueezeNet  --model_path SqueezeNet_002/models/SqueezeNet_val0.1577_train0.1701_epoch28
-
+               python evaluate.py --split test --model SqueezeNet  --model_path                
+                   SqueezeNet_002/models/SqueezeNet_val0.1577_train0.1701_epoch28
 
 ## References
 
