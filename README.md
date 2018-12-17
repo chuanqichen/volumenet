@@ -18,17 +18,15 @@ Some adolescents have up to 3 annual scans as a result of the follow-up scans of
 ## Source Code: 
 - loader.py : load dataset 
 - model.py : model definition
-
--  -NetFactory: create network 
-
--  -Net: base class
-
--  -AlexNet: Derived Class from Net
-
--  -SqueezeNet: Derived Class from Net
-
--  -VGG19 : Derived Class from Net
-
+                NetFactory: create network
+                
+                Net: base class
+                
+                VGG19 : Derived Class from Net
+                
+                AlexNet: Derived Class from Net
+                
+                SqueezeNet: Derived Class from Net
 - run_model.py
 - train.py
 - gradcam.py
