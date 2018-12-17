@@ -44,5 +44,39 @@ For example:
 ` python evaluate.py --split test --model SqueezeNet  --model_path SqueezeNet_002/models/SqueezeNet_val0.1577_train0.1701_epoch28
 
 
+##References
+[1] A. Pfefferbaum, T. Rohlfing, K. M. Pohl, B. Lane, W. Chu, D. Kwon, et al. Adolescent
+development of cortical and white matter structure in the ncanda sample: Role of sex, ethnicity,
+puberty, and alcohol drinking. Cereb Cortex., 26(10):4101–4121, 2016. doi: 10.1093/cercor/
+bhv205.
+
+[2] Adolf Pfefferbaum, Dongjin Kwon, et al. Altered brain developmental trajectories in adolescents
+after initiating drinking. American Journal of Psychiatry., 175(4):370–380, 2017.
+
+[3] Miles N. Wernick, Yongyi Yang, Jovan G. Brankov, Grigori Yourganov, and Stephen C. Strother.
+Machine learning in medical imaging. IEEE Signal Process Mag., 27(4):25–38, 2010.
+
+[4] Dinggang Shen, Guorong Wu, and Heung-Il Suk. Deep learning in medical image analysis.
+Annual Review of Biomedical Engineering, 19:221–248, 2017.
+
+[5] Eli Gibson, Wenqi Li, Carole Sudre, Lucas Fidon, et al. Niftynet: a deep-learning platform for
+medical imaging. Computer Methods and Programs in Biomedicine, 158:113–122, 2018.
+
+[6] Sang Hyun Park, Yong Zhang, Dongjin Kwon, Qingyu Zhao, et al. Alcohol use effects on
+adolescent brain development revealed by simultaneously removing confounding factors, identifying
+morphometric patterns, and classifying individuals. Nature Scientific Report, 8(8297),
+2018.
+
+[7] Neuroimaging python library. http://nipy.org/nibabel/. Read / write access to some
+common neuroimaging file formats.
+
+[8] The impact of squeezenet. https://aspire.eecs.berkeley.edu/wiki/_media/eop/
+2017/bichen_talk_slides.pdf.
+
+[9] Ilya Sutskever Krizhevsky, Alex and Geoffrey E. Hinton. Imagenet classification with deep
+convolutional neural networks. Advances in neural information processing systems, 2012.
+
+[10] Forrest N. Iandola. Squeezenet: Alexnet-level accuracy with 50x fewer parameters and< 1mb
+model size. arXiv, 2016.
 
 
