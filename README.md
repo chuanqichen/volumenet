@@ -46,6 +46,8 @@ Hyper Parameters
 
 - model : SqueezeNet , AlexNet, or VGG19 are supported 
 
+Notes: GPU is automatically turned on to use if you have cuda device is available for convenience.  
+
 For example: 
 
               python train.py --model SqueezeNet --learning_rate=1e-5 --epochs=50 --max_patience=5 
