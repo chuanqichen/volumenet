@@ -1,18 +1,25 @@
-DEEP LEARNING FOR CLASSIFYING HEAVY DRINKERS FROM NORMAL CONTROLS with MRI Brain Volume Images
+#DEEP LEARNING FOR CLASSIFYING HEAVY DRINKERS FROM NORMAL CONTROLS with MRI Brain Volume Images
 
 ## Setup
 
--conda env create -f environment.yml`
+-conda env create -f environment.yml
+
 -conda install cython
 
-# Source Code: 
+## Source Code: 
 - loader.py : load dataset 
 - model.py : model definition
+
 --   NetFactory: create network 
+
 --  Net: base class
+
 --  AlexNet: Derived Class from Net
+
 --  SqueezeNet: Derived Class from Net
+
 --  VGG19 : Derived Class from Net
+
 - run_model.py
 - train.py
 - gradcam.py
@@ -29,9 +36,11 @@ usage: train.py --rundir RUNDIR --model MODEL [--seed SEED] [--augment]
                 [--factor FACTOR]
                 
 Hyper Parameters 
+
 - model : SqueezeNet , AlexNet, or VGG19 are supported 
 
 For example: 
+
 python train.py --model SqueezeNet --learning_rate=1e-5 --epochs=50 --max_patience=5 --factor=0.5 --weight_decay=0.05 --rundir subfolder
 
 - arguments saved at `[subfolder]/args.json`
