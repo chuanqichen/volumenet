@@ -1,4 +1,4 @@
-#DEEP LEARNING FOR CLASSIFYING HEAVY DRINKERS FROM NORMAL CONTROLS with MRI Brain Volume Images
+DEEP LEARNING FOR CLASSIFYING HEAVY DRINKERS FROM NORMAL CONTROLS with MRI Brain Volume Images
 
 ## Setup
 
@@ -6,19 +6,28 @@
 
 -conda install cython
 
+## Dataset: 
+Special permission is required to get access to NCANDA data after agreement is signed and access is approved. 
+
+National Consortium on Alcohol and NeuroDevelopment in Adolescence (NCANDA) magnetic
+resonance imaging (MRI) data is consisted of MRI images of total 808 adolescents, in which 674
+adolescents meeting no/low alcohol or drug use criteria and 134 adolescents exceeding criteria.
+Some adolescents have up to 3 annual scans as a result of the follow-up scans of each subject.
+
+
 ## Source Code: 
 - loader.py : load dataset 
 - model.py : model definition
 
---   NetFactory: create network 
+-  -NetFactory: create network 
 
---  Net: base class
+-  -Net: base class
 
---  AlexNet: Derived Class from Net
+-  -AlexNet: Derived Class from Net
 
---  SqueezeNet: Derived Class from Net
+-  -SqueezeNet: Derived Class from Net
 
---  VGG19 : Derived Class from Net
+-  -VGG19 : Derived Class from Net
 
 - run_model.py
 - train.py
