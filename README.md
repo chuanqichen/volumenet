@@ -48,11 +48,12 @@ Hyper Parameters
 
 For example: 
 
-python train.py --model SqueezeNet --learning_rate=1e-5 --epochs=50 --max_patience=5 --factor=0.5 --weight_decay=0.05 --rundir subfolder
+              python train.py --model SqueezeNet --learning_rate=1e-5 --epochs=50 --max_patience=5 
+              --factor=0.5 --weight_decay=0.05 --rundir subfolder
 
-- arguments saved at `[subfolder]/args.json`
+              arguments saved at `[subfolder]/args.json`
 
-- models saved at `[subfolder]/[val_loss]_[train_loss]_epoch[epoch_num]`
+              models saved at `[subfolder]/[val_loss]_[train_loss]_epoch[epoch_num]`
 
 ## Evaluate
 
@@ -65,6 +66,13 @@ For example:
 
                python evaluate.py --split test --model SqueezeNet  --model_path                
                    SqueezeNet_002/models/SqueezeNet_val0.1577_train0.1701_epoch28
+
+## Save training and evaluation results over epoches and visualization 
+
+TensorboardX (a library for pytorch) was used to save the intermediate results (scalar datas, figures, images, graphcs) every epoches 
+
+Tensorboard can be used to load above results (scalar datas, figures, images, graphcs) to visualize and monitor the training as it goes
+
 
 ## References
 
@@ -109,4 +117,8 @@ model size. arXiv, 2016.
 [13] Paszke A, Gross S, Chintala S, Chanan G, Yang E, DeVito Z, et al. Automatic differentiation in PyTorch. 31st Conference on Neural Information Processing Systems; 2017 Dec 4–9; Long Beach, CA, US.
 
 [14] van Rossum G. Python 2.7.10 language reference. Wickford (UK): Samurai Media; 2015.
+
+[15] TensorboardX: https://github.com/lanpa/tensorboardX.
+
+[16] Tensorboard: https://www.tensorflow.org/guide/summaries_and_tensorboard
 
