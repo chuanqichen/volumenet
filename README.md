@@ -80,4 +80,11 @@ convolutional neural networks. Advances in neural information processing systems
 [10] Forrest N. Iandola. Squeezenet: Alexnet-level accuracy with 50x fewer parameters and< 1mb
 model size. arXiv, 2016.
 
+[11] Bien N, Rajpurkar P, Ball RL, Irvin J, Park A, Jones E, et al. (2018) Deep-learning-assisted diagnosis for knee magnetic resonance imaging: Development and retrospective validation of MRNet. PLoS Med 15(11): e1002699. https://doi.org/10.1371/journal.pmed.1002699
+
+[12] Pedregosa F, Varoquaux G, Gramfort A, Michel V, Thirion B, Grisel O, et al. Scikit-learn: machine learning in Python. J Mach Learn Res. 2011;12:2825–30.
+
+[13] Paszke A, Gross S, Chintala S, Chanan G, Yang E, DeVito Z, et al. Automatic differentiation in PyTorch. 31st Conference on Neural Information Processing Systems; 2017 Dec 4–9; Long Beach, CA, US.
+
+[14] van Rossum G. Python 2.7.10 language reference. Wickford (UK): Samurai Media; 2015.
 
